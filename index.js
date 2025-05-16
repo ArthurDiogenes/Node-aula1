@@ -14,7 +14,7 @@ app.get('/Features', (req, res) => {
 });
 
 app.get('/Contact', (req, res) => {
-    res.send('Meu número de telefone é: 11999999999');
+    res.send('Meu número de telefone é: 999999999');
 });
 
 app.listen(3000, () => {
