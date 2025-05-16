@@ -5,10 +5,6 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.get('/Home', (req, res) => {
-    res.send('Hello World!');
-});
-
 app.get('/About', (req, res) => {
     res.send('email: emailchave@email.com');
 });
